@@ -69,6 +69,8 @@ namespace BookStore.Controllers
 
         private void NutFunction()
         {
+            // I add this function for testing. Nut
+            // Nut
             // Jai is smart guy.
             // I add this function for testing. Jai
         }
