@@ -21,11 +21,18 @@ namespace BookStore.Controllers
             return View();
         }
         //GET /home/Contact
-        [HttpPost]
-        public ActionResult Contact(string message)
+        public ActionResult ContactWithParam(string message)
         {
             // TODO : send message to HQ
             ViewBag.TheMessage = "Haing trouble? Send us a message.";
+
+            return View();
+        }
+
+        public ActionResult Contact()
+        {
+            // TODO : send message to HQ
+            ViewBag.TheMessage = "This is contact page";
 
             return View();
         }
@@ -44,6 +51,7 @@ namespace BookStore.Controllers
             }
             return Content(serial);
         }
+
         public ActionResult Calcurate(int value1, int value2, string calci)
         {
             int total = 0;

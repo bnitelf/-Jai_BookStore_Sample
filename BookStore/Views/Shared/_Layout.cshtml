@@ -25,7 +25,8 @@
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Product","Product","Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                    <li>@Html.ActionLink("Calcurate", "Calcurate", "Home")</li>
+                    <li>@Html.ActionLink("Contact with param", "ContactWithParam", "Home", new { message = "This is the parameter value pass to controller" }, null)</li>
+                    <li>@Html.ActionLink("Calcurate", "Calcurate", "Home", new { value1 = 10, value2 = 5, calci = "+" }, null)</li>
                 </ul>
             </div>
         </div>
