@@ -79,6 +79,8 @@ namespace BookStore.Controllers
         {
             // I add this function for testing. Nut
             // Nut
+            // Jai is smart guy.
+            // I add this function for testing. Jai
         }
 
         // Test
