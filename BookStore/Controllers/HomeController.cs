@@ -71,5 +71,7 @@ namespace BookStore.Controllers
         {
             // I add this function for testing.
         }
+
+        // Test
     }
 }
