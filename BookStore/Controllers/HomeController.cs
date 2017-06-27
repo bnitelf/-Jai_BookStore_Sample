@@ -66,5 +66,10 @@ namespace BookStore.Controllers
             }
             return Content("Result " + total);
         }
+
+        private void NutFunction()
+        {
+            // I add this function for testing.
+        }
     }
 }
